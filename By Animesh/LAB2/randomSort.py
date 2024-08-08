@@ -1,4 +1,5 @@
 import time
+
 import random
 
 def randomized_partition(arr, low, high):
@@ -20,7 +21,7 @@ def randomized_quick_sort(arr, low, high):
         randomized_quick_sort(arr, pi + 1, high)
 
 # Input array
-arr = [3, 6, 8, 10, 1, 2, 1]
+arr = [3, 6, 8, 10, 1, 2, 1,43,2,3,23,43,23,234,54,34,52,234,54,564,7,65,76,56,456,334,23,2,342,23,432,546,65,543,435,65,6787,987,879,657,56,435,324,23,1,34,534,234,534,1]
 
 # Measure the time taken to execute the Randomized Quick Sort function
 start_time = time.time()
